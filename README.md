@@ -4,3 +4,14 @@
  ## 프레임워크 : 스프링부트 2.3.x
  ## 디비 : 오라클 12
  ## 인증키 : jsonwebtoken
+
+# 화면영역 
+- 화면을 별도로 분리 하지 않고 아래 영역을 사용하면 인증키 방식사용안하고 cros 허용해놓은 부분 모두 제거후 사용해도 된다
+## 별도 프런트 라우터에서 통제하는 부분 소스 위치
+- 우치 /src/main/resources/static/
+- vue.js(nuxt) 이용한 api 서버내 구동 페이지 
+
+## 기존 스프링 부트에서 라우팅처리하는 부분
+- /src/main/resources/static/templates
+
+ 
